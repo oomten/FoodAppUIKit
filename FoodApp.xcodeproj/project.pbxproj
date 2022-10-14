@@ -9,23 +9,43 @@
 /* Begin PBXBuildFile section */
 		2C03E6B828F820420053CC55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6B728F820420053CC55 /* AppDelegate.swift */; };
 		2C03E6BA28F820420053CC55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6B928F820420053CC55 /* SceneDelegate.swift */; };
-		2C03E6BC28F820420053CC55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6BB28F820420053CC55 /* ViewController.swift */; };
+		2C03E6BC28F820420053CC55 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6BB28F820420053CC55 /* MenuViewController.swift */; };
 		2C03E6BF28F820420053CC55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C03E6BD28F820420053CC55 /* Main.storyboard */; };
 		2C03E6C228F820420053CC55 /* FoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6C028F820420053CC55 /* FoodApp.xcdatamodeld */; };
 		2C03E6C428F820450053CC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C03E6C328F820450053CC55 /* Assets.xcassets */; };
 		2C03E6C728F820450053CC55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C03E6C528F820450053CC55 /* LaunchScreen.storyboard */; };
+		2C03E6CF28F821D80053CC55 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6CE28F821D80053CC55 /* ContactsViewController.swift */; };
+		2C03E6D128F823C00053CC55 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6D028F823C00053CC55 /* ProfileViewController.swift */; };
+		2C03E6D328F823F50053CC55 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6D228F823F50053CC55 /* BasketViewController.swift */; };
+		2C03E6D728F86DD40053CC55 /* PizzaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6D628F86DD40053CC55 /* PizzaViewModel.swift */; };
+		2C03E6DC28F916C10053CC55 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6DB28F916C10053CC55 /* MenuTableViewCell.swift */; };
+		2C03E6DF28F92E960053CC55 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6DE28F92E960053CC55 /* CitiesTableViewController.swift */; };
+		2C03E6E128F9339B0053CC55 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6E028F9339B0053CC55 /* CityModel.swift */; };
+		2C03E6E328F938880053CC55 /* CitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03E6E228F938870053CC55 /* CitiesTableViewCell.swift */; };
+		2CBC9D3328F99C8A00734A77 /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBC9D3228F99C8A00734A77 /* BannerModel.swift */; };
+		2CBC9D3728F99FA200734A77 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBC9D3628F99FA200734A77 /* BannerCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C03E6B428F820420053CC55 /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C03E6B728F820420053CC55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C03E6B928F820420053CC55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C03E6BB28F820420053CC55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C03E6BB28F820420053CC55 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		2C03E6BE28F820420053CC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C03E6C128F820420053CC55 /* FoodApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodApp.xcdatamodel; sourceTree = "<group>"; };
 		2C03E6C328F820450053CC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C03E6C628F820450053CC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C03E6C828F820450053CC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C03E6CE28F821D80053CC55 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		2C03E6D028F823C00053CC55 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2C03E6D228F823F50053CC55 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		2C03E6D628F86DD40053CC55 /* PizzaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaViewModel.swift; sourceTree = "<group>"; };
+		2C03E6DB28F916C10053CC55 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		2C03E6DE28F92E960053CC55 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		2C03E6E028F9339B0053CC55 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		2C03E6E228F938870053CC55 /* CitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewCell.swift; sourceTree = "<group>"; };
+		2CBC9D3228F99C8A00734A77 /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		2CBC9D3628F99FA200734A77 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +78,10 @@
 		2C03E6B628F820420053CC55 /* FoodApp */ = {
 			isa = PBXGroup;
 			children = (
-				2C03E6B728F820420053CC55 /* AppDelegate.swift */,
-				2C03E6B928F820420053CC55 /* SceneDelegate.swift */,
-				2C03E6BB28F820420053CC55 /* ViewController.swift */,
+				2C03E6DA28F916490053CC55 /* Delegates */,
+				2C03E6D928F916350053CC55 /* DataModel */,
+				2C03E6DD28F916D30053CC55 /* Main View Controller */,
+				2C03E6D828F916100053CC55 /* Unused ViewControllers */,
 				2C03E6BD28F820420053CC55 /* Main.storyboard */,
 				2C03E6C328F820450053CC55 /* Assets.xcassets */,
 				2C03E6C528F820450053CC55 /* LaunchScreen.storyboard */,
@@ -68,6 +89,63 @@
 				2C03E6C028F820420053CC55 /* FoodApp.xcdatamodeld */,
 			);
 			path = FoodApp;
+			sourceTree = "<group>";
+		};
+		2C03E6D828F916100053CC55 /* Unused ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C03E6CE28F821D80053CC55 /* ContactsViewController.swift */,
+				2C03E6D228F823F50053CC55 /* BasketViewController.swift */,
+				2C03E6D028F823C00053CC55 /* ProfileViewController.swift */,
+			);
+			path = "Unused ViewControllers";
+			sourceTree = "<group>";
+		};
+		2C03E6D928F916350053CC55 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C03E6D628F86DD40053CC55 /* PizzaViewModel.swift */,
+				2C03E6E028F9339B0053CC55 /* CityModel.swift */,
+				2CBC9D3228F99C8A00734A77 /* BannerModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		2C03E6DA28F916490053CC55 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				2C03E6B728F820420053CC55 /* AppDelegate.swift */,
+				2C03E6B928F820420053CC55 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		2C03E6DD28F916D30053CC55 /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CBC9D3428F99DD600734A77 /* Menu */,
+				2CBC9D3528F99DE100734A77 /* Cities */,
+			);
+			path = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		2CBC9D3428F99DD600734A77 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2C03E6BB28F820420053CC55 /* MenuViewController.swift */,
+				2CBC9D3628F99FA200734A77 /* BannerCollectionViewCell.swift */,
+				2C03E6DB28F916C10053CC55 /* MenuTableViewCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		2CBC9D3528F99DE100734A77 /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				2C03E6DE28F92E960053CC55 /* CitiesTableViewController.swift */,
+				2C03E6E228F938870053CC55 /* CitiesTableViewCell.swift */,
+			);
+			path = Cities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +219,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C03E6BC28F820420053CC55 /* ViewController.swift in Sources */,
+				2C03E6D128F823C00053CC55 /* ProfileViewController.swift in Sources */,
+				2C03E6E328F938880053CC55 /* CitiesTableViewCell.swift in Sources */,
+				2C03E6BC28F820420053CC55 /* MenuViewController.swift in Sources */,
+				2C03E6D728F86DD40053CC55 /* PizzaViewModel.swift in Sources */,
+				2C03E6D328F823F50053CC55 /* BasketViewController.swift in Sources */,
+				2C03E6DC28F916C10053CC55 /* MenuTableViewCell.swift in Sources */,
 				2C03E6C228F820420053CC55 /* FoodApp.xcdatamodeld in Sources */,
 				2C03E6B828F820420053CC55 /* AppDelegate.swift in Sources */,
+				2CBC9D3328F99C8A00734A77 /* BannerModel.swift in Sources */,
 				2C03E6BA28F820420053CC55 /* SceneDelegate.swift in Sources */,
+				2CBC9D3728F99FA200734A77 /* BannerCollectionViewCell.swift in Sources */,
+				2C03E6DF28F92E960053CC55 /* CitiesTableViewController.swift in Sources */,
+				2C03E6E128F9339B0053CC55 /* CityModel.swift in Sources */,
+				2C03E6CF28F821D80053CC55 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
